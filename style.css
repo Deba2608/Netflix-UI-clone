@@ -17,7 +17,7 @@ body {
 }
 
 .main {
-    background-image: url("/assets/img/cover.jpg");
+    background-image: url("assets/img/cover.jpg");
     background-position: center center;
     background-size: cover;
     background-size: max(100vw, 1500px);
