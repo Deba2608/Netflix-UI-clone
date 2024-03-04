@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&family=Poppins:ital,wght@0,400;0,700;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    /* overflow: hidden; */
+}
+
+.main {
+    background-image: url("/assets/img/cover.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-size: max(100vw, 1500px);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.main .box {
+    height: 100%;
+    width: 100%;
+    opacity: .69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.main nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 76vw;
+    margin: auto;
+    height: 63px;
+}
+
+.main nav img {
+    color: rgba(255, 0, 0, 0.54);
+    padding-top: 3rem;
+    width: 15rem;
+    position: relative;
+    z-index: 10;
+
+}
+
+.main nav .btn {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    display: flex;
+    height: calc(100vh - 63px);
+    max-width: 80vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: .4rem;
+    padding: 0 10px;
+
+}
+
+.main .hero .a {
+    font-weight: 900;
+    font-size: 4.8rem;
+    text-align: center;
+    margin: .7rem 0;
+}
+
+.main .hero .b {
+    font-weight: 400;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: .7rem 0;
+}
+
+.main .hero .c {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+    margin-top: .7rem;
+
+}
+
+.separation {
+    height: .8rem;
+    background-color: rgba(57, 57, 57, 0.8);
+
+}
+
+ .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+
+
+.input input {
+    max-width: 80%;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: rgb(23, 23, 23, .4);
+    border: 1px solid gray;
+    color: white;
+    padding: 15px;
+    padding-right: 18%;
+    margin: 5px;
+    flex-shrink: 3;
+
+}
+
+.btn_red2 {
+    background-color: rgba(255, 0, 0, 0.866);
+    color: white;
+    width: fit-content;
+    padding: 13px 2px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+
+}
+
+
+
+.btn {
+
+    font-weight: 600;
+
+}
+
+#language {
+    background-color: rgb(23, 23, 23, .4);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-right: 14px;
+    padding: 7px 12px;
+}
+
+.btn_red1 {
+    background-color: rgba(255, 0, 0, 0.812);
+    color: white;
+    border: none;
+    padding: 7px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    color: white;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    right: 75px;
+    top: 85px;
+    width: 73%;
+}
+
+.first .sectext {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.5rem;
+
+}
+
+.first .d {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+    font-size: 4.8rem;
+    text-align: start;
+    line-height: 7rem;
+}
+
+.first .e {
+    font-size: 2.2rem;
+
+}
+
+.fourth .d {
+    font-weight: 900;
+    font-size: 4.7rem;
+
+}
+
+/* .second img {
+    width: 555px;
+} */
+
+.third .secimg {
+    position: relative;
+}
+
+.third .secimg img {
+    position: relative;
+    width: 555px;
+    z-index: 10;
+}
+
+.third .secimg video {
+    position: absolute;
+    right: 95px;
+    top: 35px;
+    width: 65%;
+
+}
+
+.faq {
+    padding: 55px 0;
+    background: black;
+    color: white;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 4.8rem;
+    margin-bottom: 20px;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgba(57, 57, 57, 0.8);
+    max-width: 73.6vw;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .4s ease-out;
+    cursor: pointer;
+
+}
+
+.faqbox span {
+    font-size: 2.2rem;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.faqbox:hover {
+    background-color: rgba(107, 106, 106, 0.674);
+
+}
+
+.faqbox svg {
+    width: 4.3rem;
+    height: 4.3rem;
+    filter: invert(1);
+}
+
+.hero1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    width: 80vw;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 4px;
+    padding: 1.5rem 0;
+}
+
+.hero1 .c {
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+
+footer {
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 45px 0;
+    font-size: 1.4rem;
+    color: rgb(196, 194, 194);
+}
+
+footer .qs {
+    padding: 25px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-item a {
+    color: rgb(196, 194, 194);
+    /* padding: 10px 0; */
+}
+
+footer .netflix-india {
+    padding: 25px 0;
+}
+
+.qs span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* small laptop  */
+
+@media screen and (max-width : 1280px) and (min-width:960px) {
+
+    /* html {
+        font-size: 65%;
+    } */
+    .first {
+        max-width: 90vw;
+    }
+
+    .faqbox {
+        max-width: 90vw;
+    }
+
+    .main nav {
+        max-width: 90vw;
+    }
+
+
+    .secimg img {
+        max-width: 480px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .secimg video {
+        position: absolute;
+        right: 68px;
+        top: 75px;
+        width: 347px;
+    }
+
+    .third .secimg video {
+        position: absolute;
+        right: 93px;
+        top: 36px;
+        width: 310px;
+
+    }
+
+}
+
+@media screen and (max-width :960px) {
+
+    html {
+
+        font-size: 48%;
+    }
+    .main nav img{
+        width: 11rem;
+    }
+
+    .main nav {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+        padding-top: 80px;
+
+    }
+
+    .hero1 {
+        max-width: 80vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .first .d {
+        text-align: center;
+    }
+
+    .first .sectext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+
+    }
+
+    .second {
+        flex-direction: column-reverse;
+    }
+
+    .fourth {
+        flex-direction: column-reverse;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width :700px) {
+
+
+    html {
+        font-size: 43%;
+    }
+
+    .secimg img {
+        max-width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+
+    .secimg video {
+        position: absolute;
+        max-width: 100%;
+        top: 20.5%;
+        left: 13.2%;
+
+    }
+
+    .third .secimg video {
+        position: absolute;
+        max-width: 100%;
+        top: 10%;
+        left: 16%;
+
+
+
+    }
+
+    
+}
+
+@media screen and (max-width :600px) {
+    .input {
+        flex-direction: column;
+    }
+
+     .input input {
+        width: 75%;
+    }
+
+}
+@media screen and (max-width :500px)
+{
+    html{
+        font-size: 40%;
+    }
+    .btn_red1 {
+        padding: 6px 14px;
+        margin-top: 25px;
+    }
+    #language {
+        margin-top: 25px;
+        margin-right: 10px;
+        padding: 6px 5px;
+    }
+}
